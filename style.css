@@ -153,3 +153,87 @@ body {
     body { padding: 0; background: none; }
     .resume-container { box-shadow: none; border-radius: 0; }
 }
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    body {
+        padding: 20px 10px;
+    }
+
+    .resume-container {
+        flex-direction: column;
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .sidebar {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .header h1 {
+        font-size: 22px;
+    }
+
+    .tagline {
+        font-size: 13px;
+        margin-bottom: 25px;
+    }
+
+    .contact-info {
+        margin-bottom: 30px;
+    }
+
+    .contact-item {
+        font-size: 12px;
+    }
+
+    .skills h3 {
+        font-size: 15px;
+    }
+
+    .skill-category h4 {
+        font-size: 13px;
+    }
+
+    .skill-category ul {
+        font-size: 12px;
+    }
+
+    .main-content {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .section-title {
+        font-size: 17px;
+    }
+
+    .summary p {
+        font-size: 13px;
+    }
+
+    .exp-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+        font-size: 14px;
+    }
+
+    .role {
+        font-size: 13px;
+    }
+
+    .bullet-list {
+        font-size: 12.5px;
+        padding-left: 15px;
+    }
+
+    .project-name {
+        font-size: 14px;
+    }
+
+    .project-item p {
+        font-size: 12.5px;
+    }
+}
